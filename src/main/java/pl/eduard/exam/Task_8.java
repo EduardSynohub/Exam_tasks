@@ -59,7 +59,7 @@ public class Task_8 {
             String[] strings = studentsListFromExam.get(i).split(" ");
             int points = Integer.parseInt(strings[1]);
 
-            if (points > (max * 0.6)) {
+            if (points >= (max * 0.6)) {
                 studentsWhoPassed.add(studentsListFromExam.get(i));
             }
         }
